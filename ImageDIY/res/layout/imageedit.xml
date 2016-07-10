@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/imageedit"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+<EditText 
+    android:id="@+id/edittext"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="16sp"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true"
+    android:visibility="invisible"
+    android:hint="@string/hint">
+</EditText>
+<ImageButton
+    android:id="@+id/sur_menu"
+    android:layout_width="50dp"
+    android:layout_height="33dp"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentLeft="true"
+    android:src="@drawable/btn_menu"
+    android:background="@drawable/menu_selectitem"
+    android:contentDescription="@string/imagebutton"
+    android:onClick="suronClick"
+    />
+<ImageButton
+    android:id="@+id/sur_exit"
+    android:layout_width="50dp"
+    android:layout_height="33dp"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentRight="true"
+    android:src="@drawable/btn_exit"
+    android:background="@drawable/menu_selectitem"
+    android:contentDescription="@string/imagebutton"
+    android:onClick="suronClick"
+    /> 
+<com.huangbin.test.diyimage.ImageSurface
+    android:id="@+id/sv"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    />
+
+</RelativeLayout>

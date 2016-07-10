@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<color name="discuss_blue">#295782</color>
+<color name="white">#FFFFFF</color>
+<color name="black">#000000</color>
+<color name="discuss_writer">#778190</color>
+<color name="gray">#ff888888</color>
+<color name="photo_preview_select_album_layout_bg">#ff3a3a3a</color>
+</resources>

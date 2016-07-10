@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/imagelayout"
+    android:background="#c7edcc"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+<ImageButton 
+    android:id="@+id/btn_cancel" 
+    android:layout_width="50dp"
+    android:layout_height="33dp"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentLeft="true"
+    android:src="@drawable/btn_cancel"
+    android:background="@drawable/menu_selectitem"
+    android:contentDescription="@string/imagebutton"
+    android:visibility="visible"
+    android:onClick="onClick"/>
+<ImageButton
+    android:id="@+id/btn_store" 
+    android:layout_width="50dp"
+    android:layout_height="33dp"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentRight="true"
+    android:background="@drawable/menu_selectitem"
+    android:src="@drawable/btn_store"
+    android:contentDescription="@string/imagebutton"
+    android:visibility="visible"
+    android:onClick="onClick"
+    />
+<TextView 
+    android:id="@+id/image_score" 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="#ffDD2222"
+    android:textSize="20sp"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true"
+    android:visibility="invisible"
+    />
+<ImageView 
+    android:id="@+id/imageview"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:contentDescription="@string/imagebutton"
+    />
+<ImageButton
+    android:id="@+id/btn_menu"
+    android:layout_width="50dp"
+    android:layout_height="33dp"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentLeft="true"
+    android:src="@drawable/btn_menu"
+    android:background="@drawable/menu_selectitem"
+    android:contentDescription="@string/imagebutton"
+    android:onClick="onClick"
+    />
+<ImageButton
+    android:id="@+id/btn_exit"
+    android:layout_width="50dp"
+    android:layout_height="33dp"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentRight="true"
+    android:src="@drawable/btn_exit"
+    android:background="@drawable/menu_selectitem"
+    android:contentDescription="@string/imagebutton"
+    android:onClick="onClick"
+    />    
+</RelativeLayout>

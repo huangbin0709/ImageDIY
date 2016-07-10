@@ -1,0 +1,19 @@
+<resources>
+
+    <string name="app_name">ImageDIY</string>
+    <string name="imagebutton">imagebuttoninfo</string>
+    <string name="logoimage">logoimage</string>
+    <string name="btn2">菜单</string>
+    <string name="readme">ImageDIY</string>
+    <string name="readbook">请点击选择或拍照打开一张图片</string>
+    <string name="home">ImageDIY</string>
+    <string name="no_img">没有图片！</string>
+    <string name="saturation">饱和度</string>
+    <string name="contrast">色度</string>
+    <string name="lightness">亮度</string>
+    <string name="resizeok">确定</string>
+    <string name="resizecancel">取消</string>
+    <string name="save">保存</string>
+    <string name="hint">请在此处输入文字</string>
+    <string name="handling">处理中，请稍后</string>
+</resources>
